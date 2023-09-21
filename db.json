@@ -1,9 +1,167 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "hospital": [
+    {
+      "hospitalName": "Apollo",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Apollo_Hospitals_Logo.svg/800px-Apollo_Hospitals_Logo.svg.png",
+      "area": "Hyd",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "genral",
+          "price": "10000"
+        }
+      ],
+      "beds": [
+        {
+          "bedStatus": "open",
+          "bedType": "icu",
+          "bedPrice": "10000",
+          "patients": [],
+          "bedId": "icu1"
+        },
+        {
+          "bedStatus": "open",
+          "bedType": "icu",
+          "bedPrice": "10000",
+          "patients": [],
+          "bedId": "icu2"
+        },
+        {
+          "bedStatus": "open",
+          "bedType": "icu",
+          "bedPrice": "10000",
+          "patients": [],
+          "bedId": "icu3"
+        },
+        {
+          "bedStatus": "open",
+          "bedType": "icu",
+          "bedPrice": "10000",
+          "patients": [],
+          "bedId": "icu4"
+        },
+        {
+          "bedStatus": "open",
+          "bedType": "icu",
+          "bedPrice": "10000",
+          "patients": [],
+          "bedId": "icu5"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "hospitalName": "Yashoda",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/Yashoda_Hospitals_logo.png",
+      "area": "vizag",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "genral",
+          "price": "10000"
+        },
+        {
+          "bedType": "icu",
+          "price": "20000"
+        }
+      ],
+      "beds": [
+        {
+          "bedStatus": "open",
+          "bedType": "icu",
+          "bedPrice": "20000",
+          "patients": [],
+          "bedId": "icu1"
+        },
+        {
+          "bedStatus": "open",
+          "bedType": "icu",
+          "bedPrice": "20000",
+          "patients": [],
+          "bedId": "icu2"
+        },
+        {
+          "bedStatus": "open",
+          "bedType": "icu",
+          "bedPrice": "20000",
+          "patients": [],
+          "bedId": "icu3"
+        },
+        {
+          "bedStatus": "open",
+          "bedType": "icu",
+          "bedPrice": "20000",
+          "patients": [],
+          "bedId": "icu4"
+        },
+        {
+          "bedStatus": "open",
+          "bedType": "icu",
+          "bedPrice": "20000",
+          "patients": [],
+          "bedId": "icu5"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "hospitalName": "kims",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/KIMS_Main_Logo_Col-01.jpg",
+      "area": "Hyd",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "genral",
+          "price": "10000"
+        },
+        {
+          "bedType": "icu",
+          "price": "20000"
+        },
+        {
+          "bedType": "luxury",
+          "price": "30000"
+        }
+      ],
+      "beds": [
+        {
+          "bedStatus": "open",
+          "bedType": "luxury",
+          "bedPrice": "60000",
+          "patients": [],
+          "bedId": "luxury1"
+        },
+        {
+          "bedStatus": "open",
+          "bedType": "luxury",
+          "bedPrice": "60000",
+          "patients": [],
+          "bedId": "luxury2"
+        },
+        {
+          "bedStatus": "open",
+          "bedType": "luxury",
+          "bedPrice": "60000",
+          "patients": [],
+          "bedId": "luxury3"
+        },
+        {
+          "bedStatus": "open",
+          "bedType": "luxury",
+          "bedPrice": "60000",
+          "patients": [],
+          "bedId": "luxury4"
+        },
+        {
+          "bedStatus": "open",
+          "bedType": "luxury",
+          "bedPrice": "60000",
+          "patients": [],
+          "bedId": "luxury5"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "patients": []
+}
